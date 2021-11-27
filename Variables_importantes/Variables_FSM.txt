@@ -1,0 +1,87 @@
+VARIABLES DE MAIN FSM
+
+NOTAS IMPORTANTES:
+	Al cortex se envian señales negadas--(ES DECIR QUE SI EN EL GPIO CONFIGURADO COMO SALIDA DE LA RASPI ESTA EN '1' EL CORTEX LEE '0'A LA ENTRADA)
+********************************************************************************************
+--------------------------------VARIABLES DEL CORTEX --------------------------------------
+********************************************************************************************
+
+1) botonInicioVEX 
+	Señal de salida del puerto digital (dgtl8) que envia el cortex en '1'(ON) al  GPIO RPI (7) cuando se presiona en el Joystick que inicio el recorrido.
+----------------------------------------------------------------------------------------
+2) botonMedidaVEX
+	Señal de salida del puerto digital (dgtl9) que envia el cortex en '1'(ON) al  GPIO RPI (12) cuando quiere adquirir una medida en un punto especifico.
+----------------------------------------------------------------------------------------
+3) botonFinVEX
+	Señal de salida del puerto digital (dgtl0) que envia el cortex en '1'(ON) al  GPIO RPI (15) cuando quiere finalizar el recorrido.
+----------------------------------------------------------------------------------------
+4) finMedidaRPI
+        Variable de entrada al cortex (dgtl6) que envía el GPIO(23) de la RPI  en '0'(ON) cuando termina de
+        tomar medidas en un punto específico.
+----------------------------------------------------------------------------------------
+5) conexionInternet
+	Variable de entrada al cortex (dgtl7) que envía el GPIO(40) de la RPI  en '0'(ON) cuando hay conexión a internet para que no se mueva el carro mientras se manda la información.
+----------------------------------------------------------------------------------------
+6) enableRPI
+	Variable de entrada al cortex (dgtl5) que envía el GPIO(21) de la RPI  en '0'(ON) cuando la raspberry ya mando todo a internet y esta lista para un nuevo recorrido.
+
+----------------------------------------------------------------------------------------
+7) Prox1
+	Variable de entrada al cortex (dgtl1) que envía el GPIO(35) de la RPI  en '0'(ON) cuando el sensor de proximidad 1 esta a menos de 20cm.
+
+----------------------------------------------------------------------------------------
+8) Prox2
+	Variable de entrada al cortex (dgtl2) que envía el GPIO(32) de la RPI  en '0'(ON) cuando el sensor de proximidad 2 esta a menos de 20cm.
+
+----------------------------------------------------------------------------------------
+9) Prox3
+	Variable de entrada al cortex (dgtl3) que envía el GPIO(36) de la RPI  en '0'(ON) cuando el sensor de proximidad 3 esta a menos de 20cm.
+
+----------------------------------------------------------------------------------------
+10) Prox4
+	Variable de entrada al cortex (dgtl4) que envía el GPIO(38) de la RPI  en '0'(ON) cuando el sensor de proximidad 4 esta a menos de 20cm.
+
+*********************************************************************************************
+---------------------------------------  RUTAS -----------------------------------------
+********************************************************************************************
+
+*Temp Histórico Proyecto de Grado.
+/home/pi/Desktop/Proyecto-Grado-/Pruebas_Union_de_Sensores/FSM_Versions/Version1/Datos/Adq_Datos_Historico_TG_TEMP.csv
+
+*Histórico descargado de DROPBOX TG
+/home/pi/Desktop/Proyecto-Grado-/Pruebas_Union_de_Sensores/FSM_Versions/Version1/Datos/Adq_Datos_Historico_TG.csv"
+
+-----------------------------------------------------------------
+*Temp Histórico IoT.
+/home/pi/Desktop/Proyecto-Grado-/Pruebas_Union_de_Sensores/FSM_Versions/Version1/Datos/Adq_Datos_Historico_IoT_TEMP.csv
+
+*Histórico descargado de DROPBOX IoT
+"/home/pi/Desktop/Proyecto-Grado-/Pruebas_Union_de_Sensores/FSM_Versions/Version1/Datos/Adq_Datos_Historico_IoT.csv"
+
+-----------------------------------------------------------------
+*Actual Proyecto de Grado.
+/home/pi/Desktop/Proyecto-Grado-/Pruebas_Union_de_Sensores/FSM_Versions/Version1/Datos/Adq_Actual_TG.csv
+
+*Actual IoT
+/home/pi/Desktop/Proyecto-Grado-/Pruebas_Union_de_Sensores/FSM_Versions/Version1/Datos/Adq_Actual_IoT.csv
+
+
+
+
+/////////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////////
+Datos_Actual_TROPBOT.csv
+
+
+
+
+
+
+
+*********************************************************************************************
+--------------------------------------- CONEXIONES DE BAQUELITAS DE LOS LEDS-----------------------------------------
+********************************************************************************************
+LED ADQUIRIR - Activo en alto - CONECTAR UNION A LA salida del puerto digital (dgtl9)
+LED RECORRIDO - Activo en alto - CONECTAR UNION A LA salida del puerto digital (dgtl8)
+LED ENVIAR - Activo en alto - CONECTAR AL GPIO RPI (19)
+LED INTERNET - Activo en alto - CONECTAR AL GPIO RPI (26)
