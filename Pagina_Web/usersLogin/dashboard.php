@@ -70,7 +70,7 @@ if (!isset($_SESSION['login_sess'])) {
                         <p>  <span class="icon document" aria-hidden="true"></span> Temperatura <br>Ambiente <br>
                         <br> <span class="icon folder" aria-hidden="true"></span>
                         Humedad Relativa <br>del aire<br>
-                        <br> <span class="icon image" aria-hidden="true"></span>Radiación Solar<br>
+                        <br> <span class="icon image" aria-hidden="true"></span>Radiación Solar e Iluminación Ambiente<br>
                         <br> <span class="icon edit" aria-hidden="true"></span>Dióxido de Carbono</p>
                     </a> 
                         

@@ -21,7 +21,7 @@ if (!isset($_SESSION['login_sess'])) {
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TROPBOT TG || Porque sabemos que amas tu cultivo  | Adquisión</title>
+  <title>TROPBOT TG || Porque sabemos que amas tu cultivo  | Adquisición</title>
   <!-- Favicon -->
   <link rel="shortcut icon" href="../img/core-img/favicon.png" type="image/x-icon">
   
@@ -66,7 +66,7 @@ if (!isset($_SESSION['login_sess'])) {
                        <p>  <span class="icon document" aria-hidden="true"></span> Temperatura <br>Ambiente <br>
                         <br> <span class="icon folder" aria-hidden="true"></span>
                         Humedad Relativa <br>del aire<br>
-                        <br> <span class="icon image" aria-hidden="true"></span>Radiación Solar<br>
+                        <br> <span class="icon image" aria-hidden="true"></span>Radiación Solar e Iluminación Ambiente<br>
                         <br> <span class="icon edit" aria-hidden="true"></span>Dióxido de Carbono</p> </a>
                      
                 </li>
@@ -154,7 +154,7 @@ if (!isset($_SESSION['login_sess'])) {
         </nav>
 
       <div class="container">
-        <!-- ////////////////////////////////////////////////////////////////////////////////////////////-->
+       <!-- ////////////////////////////////////////////////////////////////////////////////////////////-->
                     <div class="row">
                         <div class="col-md-12">
                             <div class="card">
@@ -187,7 +187,7 @@ if (!isset($_SESSION['login_sess'])) {
                                                 <strong>Alerta Temperatura</strong>
                                             </p>
                                             <div class = "chart">
-                                                <iframe width="350" height="200" style="border: 3px solid #cccccc;" src="https://thingspeak.com/apps/matlab_visualizations/436017?width=300">
+                                                <iframe width="350" height="200" style="border: 3px solid #cccccc;" src="https://thingspeak.com/apps/matlab_visualizations/437389?width=300">
                                                 </iframe>
                                             </div>
                                             <!-- /.progress-group -->
@@ -202,7 +202,7 @@ if (!isset($_SESSION['login_sess'])) {
                                         <div class="col-sm-4 col-8">
                                             <div class="description-block border-right">
                                                 <h5 class="description-header">Valor mínimo de Temperatura °C</h5>
-                                                <iframe width="90" height="50" style="border: 3px solid #fc021a;" src="https://thingspeak.com/apps/matlab_visualizations/436048?width=50&height=50"></iframe>
+                                                <iframe width="90" height="50" style="border: 3px solid #fc021a;" src="https://thingspeak.com/apps/matlab_visualizations/437403?width=50&height=50"></iframe>
                                             </div>
                                             <!-- /.description-block -->
                                         </div>
@@ -210,7 +210,7 @@ if (!isset($_SESSION['login_sess'])) {
                                         <div class="col-sm-4 col-8">
                                             <div class="description-block border-right">
                                                 <h5 class="description-header">Valor Promedio de Temperatura °C</h5>
-                                                <iframe width="90" height="50" style="border: 3px solid #fb5c04;" src="https://thingspeak.com/apps/matlab_visualizations/436037?width=50&height=50"></iframe>
+                                                <iframe width="90" height="50" style="border: 3px solid #fb5c04;" src="https://thingspeak.com/apps/matlab_visualizations/437396?width=50&height=50"></iframe>
                                             </div>
                                             <!-- /.description-block -->
                                         </div>
@@ -266,7 +266,7 @@ if (!isset($_SESSION['login_sess'])) {
                                                 <strong>Alerta Humedad</strong>
                                             </p>
                                             <div class="chart">
-                                                <iframe width="350" height="200" style="border: 3px solid #cccccc;" src="https://thingspeak.com/apps/matlab_visualizations/436046?width=300">
+                                                <iframe width="350" height="200" style="border: 3px solid #cccccc;" src="https://thingspeak.com/apps/matlab_visualizations/437388?width=300">
                                                 </iframe>
                                             </div>
                                             <!-- /.progress-group -->
@@ -317,7 +317,7 @@ if (!isset($_SESSION['login_sess'])) {
                         <div class="col-md-12">
                             <div class="card">
                                 <div class="card-header">
-                                    <h5 class="card-title">Reporte Mensual de <strong> Radiación Solar </strong></h5>
+                                    <h5 class="card-title">Reporte Mensual de <strong> Iluminación Ambiente </strong></h5>
                                     <div class="card-tools">
                                         <button type="button" class="btn btn-tool" data-card-widget="collapse">
                                             <i class="fas fa-minus"></i>
@@ -330,7 +330,7 @@ if (!isset($_SESSION['login_sess'])) {
                                     <div class="row">
                                         <div class="col-md-8">
                                             <p class="text-center">
-                                                <strong>Radiación Solar por Regiones</strong>
+                                                <strong>Iluminación Ambiente por Regiones</strong>
                                             </p>
                                             <div class="chart">
                                                 <!-- Sales Chart Canvas -->
@@ -342,10 +342,10 @@ if (!isset($_SESSION['login_sess'])) {
                                         <!-- /.col -->
                                         <div class="col-md-4">
                                             <p class="text-center">
-                                                <strong>Alerta Exposición a Radiación Solar</strong>
+                                                <strong>Alerta Iluminación Ambiente</strong>
                                             </p>
                                             <div class="chart">
-                                                <iframe width="350" height="200" style="border: 3px solid #cccccc;" src="https://thingspeak.com/apps/matlab_visualizations/436047?width=300">
+                                                <iframe width="350" height="200" style="border: 3px solid #cccccc;" src="https://thingspeak.com/apps/matlab_visualizations/437390?width=300">
                                                 </iframe>
                                             </div>
                                             <!-- /.progress-group -->
@@ -359,24 +359,24 @@ if (!isset($_SESSION['login_sess'])) {
                                     <div class="row">
                                         <div class="col-sm-4 col-8">
                                             <div class="description-block border-right">
-                                                <h5 class="description-header">Valor mínimo de Radiación Solar</h5>
-                                                <iframe width="90" height="50" style="border: 3px solid #fc021a;" src="https://thingspeak.com/apps/matlab_visualizations/436054?width=50&height=50"></iframe>
+                                                <h5 class="description-header">Valor mínimo de Iluminación Ambiente</h5>
+                                                <iframe width="90" height="50" style="border: 3px solid #fc021a;" src="https://thingspeak.com/apps/matlab_visualizations/437405?width=50&height=50"></iframe>
                                             </div>
                                             <!-- /.description-block -->
                                         </div>
                                         <!-- /.col -->
                                         <div class="col-sm-4 col-8">
                                             <div class="description-block border-right">
-                                                <h5 class="description-header">Valor promedio de Radiación Solar</h5>
-                                                <iframe width="90" height="50" style="border: 3px solid #fb5c04;" src="https://thingspeak.com/apps/matlab_visualizations/436045?width=50&height=50"></iframe>
+                                                <h5 class="description-header">Valor promedio de Iluminación Ambiente</h5>
+                                                <iframe width="90" height="50" style="border: 3px solid #fb5c04;" src="https://thingspeak.com/apps/matlab_visualizations/437404?width=50&height=50"></iframe>
                                             </div>
                                             <!-- /.description-block -->
                                         </div>
                                         <!-- /.col -->
                                         <div class="col-sm-4 col-8">
                                             <div class="description-block border-right">
-                                                <h5 class="description-header">Valor máximo de Radiación Solar</h5>
-                                                <iframe width="90" height="50" style="border: 3px solid #f9b900;" src="https://thingspeak.com/apps/matlab_visualizations/436291?width=50&height=50"></iframe>
+                                                <h5 class="description-header">Valor máximo de Iluminación Ambiente</h5>
+                                                <iframe width="90" height="50" style="border: 3px solid #f9b900;" src="https://thingspeak.com/apps/matlab_visualizations/437406?width=50&height=50"></iframe>
                                             </div>
                                             <!-- /.description-block -->
                                         </div>
@@ -397,7 +397,7 @@ if (!isset($_SESSION['login_sess'])) {
                         <div class="col-md-12">
                             <div class="card">
                                 <div class="card-header">
-                                    <h5 class="card-title">Reporte Mensual de <strong> Ìndice de Luz Ambiente </strong></h5>
+                                    <h5 class="card-title">Reporte Mensual de <strong> Radiación UV </strong></h5>
                                     <div class="card-tools">
                                         <button type="button" class="btn btn-tool" data-card-widget="collapse">
                                             <i class="fas fa-minus"></i>
@@ -408,7 +408,10 @@ if (!isset($_SESSION['login_sess'])) {
                                 <!-- /.card-header -->
                                 <div class="card-body">
                                     <div class="row">
-                                        <div class="col-md-12">
+                                        <div class="col-md-8">
+                                            <p class="text-center">
+                                                <strong>Radiación UV por Regiones</strong>
+                                            </p>
                                             <div class="chart">
                                                 <!-- Sales Chart Canvas -->
                                                 <iframe width="705" height="365" style="border: 3px solid #cccccc;" src="https://thingspeak.com/apps/matlab_visualizations/436767?width=690&height=350">
@@ -416,10 +419,52 @@ if (!isset($_SESSION['login_sess'])) {
                                             </div>
                                             <!-- /.chart-responsive -->
                                         </div>      
-                                   
+                                        <!-- /.col -->
+                                        <div class="col-md-4">
+                                            <p class="text-center">
+                                                <strong>Alerta Exposición a Radiación UV</strong>
+                                            </p>
+                                            <div class="chart">
+                                                <iframe width="350" height="200" style="border: 3px solid #cccccc;" src="https://thingspeak.com/apps/matlab_visualizations/437391?width=300">
+                                                </iframe>
+                                            </div>
+                                            <!-- /.progress-group -->
+                                        </div>
+                                        <!-- /.col -->
                                     </div>
                                     <!-- /.row -->
-                                </div>                                                                                             
+                                </div>
+                                <!-- ./card-body -->
+                                <div class="card-footer">
+                                    <div class="row">
+                                        <div class="col-sm-4 col-8">
+                                            <div class="description-block border-right">
+                                                <h5 class="description-header">Valor mínimo de Radiación UV</h5>
+                                                <iframe width="90" height="50" style="border: 3px solid #fc021a;" src="https://thingspeak.com/apps/matlab_visualizations/436054?width=50&height=50"></iframe>
+                                            </div>
+                                            <!-- /.description-block -->
+                                        </div>
+                                        <!-- /.col -->
+                                        <div class="col-sm-4 col-8">
+                                            <div class="description-block border-right">
+                                                <h5 class="description-header">Valor promedio de Radiación UV</h5>
+                                                <iframe width="90" height="50" style="border: 3px solid #fb5c04;" src="https://thingspeak.com/apps/matlab_visualizations/436045?width=50&height=50"></iframe>
+                                            </div>
+                                            <!-- /.description-block -->
+                                        </div>
+                                        <!-- /.col -->
+                                        <div class="col-sm-4 col-8">
+                                            <div class="description-block border-right">
+                                                <h5 class="description-header">Valor máximo de Radiación UV</h5>
+                                                <iframe width="90" height="50" style="border: 3px solid #f9b900;" src="https://thingspeak.com/apps/matlab_visualizations/436291?width=50&height=50"></iframe>
+                                            </div>
+                                            <!-- /.description-block -->
+                                        </div>
+                                        <!-- /.col -->
+                                    </div>
+                                    <!-- /.row -->
+                                </div>
+                                <!-- /.card-footer -->                                                                                               
                             </div>
                             <!-- /.card -->                       
                         </div>
@@ -456,10 +501,10 @@ if (!isset($_SESSION['login_sess'])) {
                                          <!-- /.col -->
                                         <div class="col-md-4">
                                             <p class="text-center">
-                                                <strong>Alerta de Dioxido de carbono</strong>
+                                                <strong>Alerta de Dióxido de carbono</strong>
                                             </p>
                                             <div class="chart">
-                                                <iframe width="350" height="200" style="border: 3px solid #cccccc;" src="https://thingspeak.com/apps/matlab_visualizations/436894?width=300">
+                                                <iframe width="350" height="200" style="border: 3px solid #cccccc;" src="https://thingspeak.com/apps/matlab_visualizations/437394?width=300">
                                                 </iframe>
                                             </div>
                                             <!-- /.progress-group -->
